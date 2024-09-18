@@ -1,0 +1,33 @@
+.header-text{
+    font-family: "Bebas Neue", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-card{
+    box-shadow: 0px 0px 20px rgb(171 171 171);
+    border-radius: 25px;
+}
+.list-items{
+    list-style:none;
+    display: flex;
+    width: 25rem;
+    height: 4.5rem;
+    box-sizing: content-box;
+    align-items: center;
+    border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    justify-content: space-between;
+}
+
+.list-item-text{
+    text-align: start;
+    margin-left: 50px;
+}
+
+.list-items:hover{
+    background-color: rgba(235, 235, 235, 0.536);
+}
